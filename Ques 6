@@ -1,0 +1,61 @@
+\documentclass{article}
+\usepackage{multirow}
+\usepackage{graphicx}
+\usepackage{subcaption}
+\usepackage[utf8]{inputenc}
+\usepackage{amsmath}
+\usepackage{amsfonts}
+\usepackage{amssymb}
+\author{Upasna Kukreti}
+\title{\textbf{Table, Equation and Figure}}
+\begin{document}
+\maketitle
+\listoftables
+\listoffigures
+\vspace{2cm}
+\textbf{Table-}
+\begin{table}[h]
+    		\begin{tabular}{|c|c|c|c|}
+        			\hline
+        			\multirow{2}{*}{Name}& \multicolumn{2}{|c|}{Subjects} & \multirow{2}{*}{Grade} \\
+            		& English & Maths & \\
+        			\hline
+        			\multirow{2}{*}{Anish} & 63 & 57 & C \\
+        			& 83 & 85 & B \\
+        			\hline
+        			\multirow{2}{*}{Bunny} & 56 & 35 & D \\
+        			& 98 & 97.5 & A \\
+        			\hline
+    		\end{tabular}
+    		\caption{Comparing}
+    		\label{tab:my_label}
+\end{table}
+\vspace{2cm}
+\textbf{Mathematical Equation-}
+\begin{equation}
+  		xy^2 + 5y +6 = 0 
+\end{equation}
+\newpage
+\begin{figure}
+  		\centering
+ 		\begin{subfigure}[b]{0.4\linewidth}
+    			\includegraphics[width=\linewidth]{pic3.jpg}
+    			\caption{Book}
+  		\end{subfigure}
+  		\begin{subfigure}[b]{0.4\linewidth}
+    			\includegraphics[width=\linewidth]{pic2.jpg}
+    			\caption{Man}
+  		\end{subfigure}
+  		\begin{subfigure}[b]{0.4\linewidth}
+    			\includegraphics[width=\linewidth]{pic4.jpeg}
+    			\caption{Beauty}
+  		\end{subfigure}
+  		\begin{subfigure}[b]{0.4\linewidth}
+      			\includegraphics[width=\linewidth]{pic5.png}
+      			\caption{Point of view}
+  		\end{subfigure}
+  		\caption{Mash-Up}
+  		\label{Point2}
+\end{figure}
+
+\end{document}
