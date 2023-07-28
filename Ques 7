@@ -1,0 +1,158 @@
+\documentclass[12pt,a4paper,oneside]{book}
+\usepackage{graphicx}
+\usepackage{subcaption}
+\usepackage{float}
+\usepackage[square,number]{natbib}
+\bibliographystyle{abbrvnat}
+\usepackage{longtable}
+\usepackage{xcolor}
+\usepackage{amsfonts}
+\usepackage{amssymb}
+\usepackage{amsmath}
+\usepackage{lipsum}
+\usepackage[utf8]{inputenc}
+\usepackage{multicol}
+\title{\huge{\textbf{Book of Learnings}}}
+\author{Upasna Kukreti}
+\maketitle
+
+\begin{document}
+\section*{Preface}
+        	\lipsum[1-3]
+    	\newpage
+    	\section*{Dedication}
+        		\lipsum[1-2]
+    	\newpage
+    	\tableofcontents
+    	\listoffigures
+    	\listoftables
+    
+    	\chapter{Images with Graphicx Package}
+        		\section{Lipsum}
+            		\lipsum[1-3]\cite{eins}
+        		\section{Subfigure}
+            		\lipsum[1-2]\cite{goose}
+            		\begin{figure}
+                			\centering
+                			\includegraphics{pic1.jpg}
+                			\caption{Bridge}
+                			\label{pic}
+            		\end{figure}
+            		\begin{figure}
+                			\begin{subfigure}[]{0.4\linewidth}
+                    			\centering
+                    			includegraphics[width=\linewidth]{pic3.jpg}
+                    			\caption{Pic1}
+                			\end{subfigure}
+                			\begin{subfigure}[]{0.4\linewidth}
+                    			\centering
+                    			\includegraphics[width=\linewidth]{pic4.jpeg}
+                    			\caption{Pic2}
+                			\end{subfigure}
+                			\centering
+                			\begin{subfigure}[]{0.4\linewidth}
+                    			\centering
+                    			\includegraphics[width=\linewidth]{pic5.png}
+                    			\caption{Pic3}
+                			\end{subfigure}
+                			\caption{Figure with Subfigures}
+                			\label{fig:enter-label}
+            		\end{figure}
+       
+\chapter{Equations}  
+        		\section{Equation}
+            		\lipsum[2]\cite{keith}
+            		\begin{equation}
+                			\int\limits_a^b f(x)dx=23
+            		\end{equation}
+            		\begin{equation}
+                			2x_1^2+3x_2=6
+            		\end{equation}
+        		\section{Summation and Matrix}
+            		\lipsum[2]\\
+            		\begin{center}
+                			{$\sum_{i=1}^{10}n_i=n_1+n_2+n_3+\cdots+n_i$}\\
+            		\end{center}
+            
+            		\lipsum[2]\cite{sith}\\
+            		\vspace{}
+            		\begin{pmatrix}
+                			a&b&\cdots&n\\
+                			c&d&\cdots&m\\
+               			e&f&\cdots&k\\
+            		\end{pmatrix}
+
+    	\chapter{Table}
+        		\section{Simple Table}
+            	\lipsum[1-2]\cite{nuth}\\
+
+            	\begin{table}
+                		\centering
+                		\begin{tabular}{|c|c|c|}
+                    	\hline
+                    	a & b & c \\
+                    	\hline
+                    	d & e & f \\
+                    	\hline
+                    	x & y & z \\
+                    	\hline
+                	\end{tabular}
+                	\caption{Simple table}
+            \end{table}
+        \section{Longtable}
+            \lipsum[1-2]
+            \begin{longtable}{|p{.20\linewidth}|p{.20\linewidth}|p{.20\linewidth}|}
+                \hline
+                Col1 & Column2 & column3\\ \hline
+                Col1 & Column2 & column3 \\ \hline
+                Col1 & Column2 & column3 \\ \hline
+                Col1 & Column2 & column3 \\ \hline
+                Col1 & Column2 & column3 \\ \hline
+                Col1 & Column2 & column3 \\ \hline
+                Col1 & Column2 & column3 \\ \hline
+                Col1 & Column2 & column3 \\ \hline
+                Col1 & Column2 & column3 \\ \hline
+                Col1 & Column2 & column3 \\ \hline
+                Col1 & Column2  & column3\\ \hline
+                Col1 & Column2 & column3 \\ \hline
+                Col1 & Column2 & column3 \\ \hline
+                Col1 & Column2 & column3 \\ \hline
+                Col1 & Column2 & column3 \\ \hline
+                Col1 & Column2 & column3 \\ \hline
+                Col1 & Column2 & column3 \\ \hline
+                Col1 & Column2 & column3 \\ \hline
+                Col1 & Column2 & column3 \\ \hline
+                Col1 & Column2 & column3 \\ \hline
+                Col1 & Column2 & column3 \\ \hline
+                Col1 & Column2 & column3 \\ \hline
+                Col1 & Column2 & column3 \\ \hline
+                \hline
+                \caption{Long Table}
+            \end{longtable}
+            
+
+    \chapter{Text}
+        \section{Colored Text}
+            \color{blue}
+                \lipsum[1]\\
+            \color{green}
+                \textit{\lipsum[1]}
+            \color{black}
+            \begin{figure}
+                \centering
+                \includegraphics{pic2.jpg}
+                \caption{Relax}
+                \label{picture}
+            \end{figure}
+                
+        \section{Multicol}
+            
+            \begin{multicols}[2]
+                \lipsum[]
+            \end{multicols}   
+ 
+    \bibliography{bib}
+
+\end{document}
+
+
