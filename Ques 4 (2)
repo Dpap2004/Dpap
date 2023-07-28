@@ -1,0 +1,62 @@
+\documentclass[10pt,a4paper]{article}
+\usepackage[utf8]{inputenc}
+\usepackage{amsmath}
+\usepackage{amsfonts}
+\usepackage{amssymb}
+\usepackage{physics}
+
+\begin{document}
+
+\begin{center}
+
+\huge{Equations}
+   
+\end{center}
+\begin{center}
+Prof. Naveen Kumar^1, Dr.Neeraj Kumar Sharma^2, and Sakeena \\ Shahid^3 \\
+\end{center}
+
+\begin{center}
+$ ^1Department of Computer Science,University of Delhi \\
+^2Ram Lal Anand College,University of Delhi \\
+^3SGTB Khalsa College,University of Delhi $
+\end{center}
+
+\begin{center}
+April 17, 2023
+\end{center}
+
+\section{Maxwell's Equation}
+
+"Maxwell's equations" are named for James Clark Maxwell and are as follows:
+\begin{align}
+          		\overrightarrow \nabla. \overrightarrow E \quad &= \quad \frac{\rho}{\epsilon_0} \qquad \qquad \qquad \qquad \textrm{Gauss's Law} \\
+          		\overrightarrow \nabla. \overrightarrow B \quad &= \quad 0 \qquad \qquad \qquad \qquad \textrm{Gauss's Law for Magnetism}\\
+           		\overrightarrow \nabla \times \overrightarrow E \quad &= \quad - \frac{\partial\overrightarrow B }{\partial t} \qquad \qquad \qquad \textrm{Faraday's Law of Induction} \\
+           		\overrightarrow \nabla. \overrightarrow E \quad &= \quad \mu_0 \bigg( \epsilon_0 \frac{\partial\overrightarrow E}{\partial t} + \overrightarrow J \bigg) \qquad \textrm{Ampere's Circuital Law}  
+\end{align}
+Equations 1, 2, 3 and 4 are some of the most important in Physics.
+\section{Matrix Equations}
+\begin{center}
+ 		\[
+ 		\begin{pmatrix}
+ 			a_{1,1} & a_{1,2} & \cdots & a_{1,n}\\
+ 			a_{2,1} & a_{2,2} & \cdots & a_{2,n}\\
+ 			\vdots & \vdots & \ddots & \vdots \\
+ 			a_{n,1} & a_{n,2} & \cdots & a_{n,n}\\ 
+ 		\end{pmatrix}
+ 		\begin{bmatrix}
+ v_1\\
+ 			V_2\\
+ \vdots\\
+ 			v_n\\
+ 		\end{bmatrix} =
+ 		\begin{matrix}
+  			w_1\\
+  			w_2\\
+  			\vdots\\
+  			w_n\\  
+ 		\end{matrix}
+\]
+\end{center}
+\end{document}
