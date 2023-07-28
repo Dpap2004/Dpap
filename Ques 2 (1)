@@ -1,0 +1,42 @@
+
+\documentclass[10pt,a4paper]{article}
+\usepackage{multicol}
+\title{Literature}
+\author{Upasna Kukreti}
+\date{April 09 2023}
+
+\begin{document}
+\maketitle
+\begin{abstract}
+
+"Literature adds to reality, it does not simply describe it. It enriches the necessary competencies that daily life requires and provides; and in this respect, it irrigates the deserts that our lives have already become."\\
+-C. S. Lewis
+
+\end{abstract}
+
+\begin{multicols}{2}
+
+\section{What is Literature?}
+
+Literature is any collection of written work, but it is also used more narrowly for writings specifically considered to be an art form, especially prose fiction, drama, and poetry.[ In recent centuries, the definition has expanded to include oral literature, much of which has been transcribed. Literature is a method of recording, preserving, and transmitting knowledge and entertainment, and can also have a social, psychological, spiritual, or political role.
+
+Literature, as an art form, can also include works in various non-fiction genres, such as biography, diaries, memoir, letters, and essays. Within its broad definition, literature includes non-fictional books, articles or other printed information on a particular subject.
+
+Etymologically, the term derives from Latin literatura/litteratura "learning, a writing, grammar," originally "writing formed with letters," from litera/littera "letter". In spite of this, the term has also been applied to spoken or sung texts. Literature is often referred to synecdochically as "writing," and poetically as "the craft of writing" or simply "the craft." Syd Field described his discipline, screenwriting, as "a craft that occasionally rises to the level of art."
+
+Developments in print technology have allowed an ever-growing distribution and proliferation of written works, which now includes electronic literature.
+
+\section{History of Literature}
+The earliest poetry is believed to have been recited or sung, employed as a way of remembering history, genealogy, and law.
+
+In Asia, the transmission of folklore, mythologies as well as scriptures in ancient India, in different Indian religions, was by oral tradition, preserved with precision with the help of elaborate mnemonic techniques.
+
+The early Buddhist texts are also generally believed to be of oral tradition, with the first by comparing inconsistencies in the transmitted versions of literature from various oral societies such as the Greek, Serbia and other cultures, then noting that the Vedic literature is too consistent and vast to have been composed and transmitted orally across generations, without being written down. According to Goody, the Vedic texts likely involved both a written and oral tradition, calling it a "parallel products of a literate society".
+
+All ancient Greek literature was to some degree oral in nature, and the earliest literature was completely so. Homer's epic poetry, states Michael Gagarin, was largely composed, performed and transmitted orally. As folklores and legends were performed in front of distant audiences, the singers would substitute the names in the stories with local characters or rulers to give the stories a local flavor and thus connect with the audience, but making the historicity embedded in the oral tradition as unreliable. The lack of surviving texts about the Greek and Roman religious traditions have led scholars to presume that these were ritualistic and transmitted as oral traditions, but some scholars disagree that the complex rituals in the ancient Greek and Roman civilizations were an exclusive product of an oral tradition.
+
+Writing systems are not known to have existed among Native North Americans before contact with Europeans. Oral storytelling traditions flourished in a context without the use of writing to record and preserve history, scientific knowledge, and social practices.[24] While some stories were told for amusement and leisure, most functioned as practical lessons from tribal experience applied to immediate moral, social, psychological, and environmental issues. Stories fuse fictional, supernatural, or otherwise exaggerated characters and circumstances with real emotions and morals as a means of teaching. Plots often reflect real life situations and may be aimed at particular people known by the story's audience. In this way, social pressure could be exerted without directly causing embarrassment or social exclusion.For example, rather than yelling, Inuit parents might deter their children from wandering too close to the water's edge by telling a story about a sea monster with a pouch for children within its reach.
+\end{multicols}
+
+\end{document}
+
