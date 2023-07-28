@@ -1,0 +1,69 @@
+
+\documentclass[12pt,a4paper]{article}
+\usepackage{graphicx}
+\usepackage{wrapfig}
+\usepackage{subfigure}
+\graphicspath{ {figures/} }
+
+\begin{document}
+\listoffigures
+\begin{center}
+    		\includegraphics[scale=0.4]{pic4.jpeg} \\
+   		 \caption{SCALE}
+    	\end{center}
+    
+   	\begin{figure}
+        		\centering
+        		\includegraphics[width=10cm,height=10cm,angle=45]{pic5.png}
+        		\caption{World Through A Different Perspective}
+        		\label{fig:my_label}
+    	\end{figure}
+
+\section{Journey}
+
+Do Paris authorities do plain-clothes ID checks on the subways?
+How is this solidity function calling another solidity function without referencing it?
+Working on Shabbat. Easy Answer... Not so, Hazan on Shabbat
+Are there any certifications required when selling a home-made microphone in the EU?Creating straight line that starts from the point with the given length and also rotates around the point in QGISWhat "things" can you notice on the piano that you can't on the harpsichord, after playing the same piece on both?CHOS Biochemistry: Is it even possible, and what would it actually be like?Identify a vertical arcade shooter from the very early 1980sDoes any proof exist for the optimal number of primes in a RSA key?
+What is a Shifty Word™?How to break mince beef apart for a bolognese, and then brown itIs compounding a universal word-formation strategy?
+Bash script hangs on gotify push command in specific while/if loop
+Use of "かな" in these Bashō/Sora haikuIf you know the original source for something you found in a more recent paper, should you cite both?
+Sending video to Telerate 9" Green MonitorWhat can make an implementation of a large integer library unsafe for cryptographyWhy don't J-Poles need to be grounded?Can you explain this difference of depth recursion in P
+
+\begin{wrapfigure}{r}{0.4\textwidth}
+\centering
+\includegraphics[scale=1]{pic1.jpg}
+\caption{A New Start To An Unknown}
+\end{wrapfigure}
+ Do Paris authorities do plain-clothes ID checks on the subways?
+How is this solidity function calling another solidity function without referencing it?
+Working on Shabbat. Easy Answer... Not so, Hazan on Shabbat
+Are there any certifications required when selling a home-made microphone in the EU?Creating straight line that starts from the point with the given length and also rotates around the point in QGISWhat "things" can you notice on the piano that you can't on the harpsichord, after playing the same piece on both?
+CHOS Biochemistry: Is it even possible, and what would it actually be like?
+Identify a vertical arcade shooter from the very early 1980s
+Does any proof exist for the optimal number of primes in a RSA key?
+What is a Shifty Word™?How to break mince beef apart for a bolognese, and then brown itIs compounding a universal word-formation strategy?
+Bash script hangs on gotify push command in specific while/if loop
+Use of "かな" in these Bashō/Sora haikuIf you know the original source for something you found in a more recent paper, should you cite both?
+Sending video to Telerate 9" Green Monitor
+What can make an implementation of a large integer library unsafe for cryptographyWhy don't J-Poles need to be grounded?Can you explain this difference of depth recursion in P   
+
+\begin{figure}[h]
+        		\centering
+        		\begin{subfigure}[]{\textwidth}
+            		\centering
+           		 \includegraphics[width=4cm,height=4cm]{pic3.jpg}
+           		 \subcaption{Knowledge}
+       			 \hfill
+        		\end{subfigure}
+        		\begin{subfigure}[]{\textwidth}
+            		\centering
+            		\includegraphics[width=4cm,height=4cm]{pic2.jpg}
+            		\subcaption{Enlightenment}
+        			\hfill
+        		\end{subfigure}
+        	\caption{Journey Of A Man}
+        	\label{fig:my_label}
+    \end{figure}
+
+\end{document}
