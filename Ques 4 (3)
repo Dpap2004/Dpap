@@ -1,0 +1,21 @@
+\documentclass[10pt,a4paper]{article}
+\usepackage[utf8]{inputenc}
+\usepackage{amsmath}
+\usepackage{amsfonts}
+\usepackage{amssymb}
+
+\title{{Hello World! }}
+\author{Prof. Naveen Kumar}
+
+\begin{document}
+
+\maketitle
+
+\textbf{Hello World!} Today I am learning \LaTeX{} . \LaTeX{} is a great program for writing math. I can write in line math such as $a^2+b^2=c^2$. I can also give equations their own space:
+
+\begin{equation*}
+\gamma^2+\theta^2=\omega^2
+\end{equation*}
+
+
+\end{document}
