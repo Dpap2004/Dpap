@@ -1,0 +1,61 @@
+\documentclass[12pt,a4paper]{article}
+\documentclass{article}
+\usepackage{amsmath}
+\usepackage{xcolor}
+\usepackage{minted}
+\usepackage{multicol}
+\definecolor{arsenic}{rgb}{0.23, 0.27, 0.29}
+\usemintedstyle{monokai}
+
+\title{Equations, Table and Algo}
+\author{Upasna Kukreti}
+
+\begin{document}
+\maketitle
+
+\section{Table}
+
+\begin{table}[h]
+    		\centering
+    		\begin{tabular}{|c|c|c|C|}
+        			\hline
+         			S.No. & Labs & Room No. & Teacher \\ \hline
+         			1 & Chemistry & 24 & Ms.Astha  \\ \hline
+         			2 & Humanities & 54 & Mr.Rakesh \\ \hline
+         			3 & Mathematics & 13 & Ms.Payal \\ \hline
+    		\end{tabular}
+    		\caption{Table 1}
+    		\label{tab:my_label}
+\end{table}
+\section{\textbf{Equations}}
+
+\begin{equation*}
+    		f(x,y)= \Biggl\{ \textstyle \frac{x^2y}{x^4+y^2} \textstyle \hspace{0.5 cm} if (x,y) \neq (0,0) 
+\end{equation*}
+\begin{center}
+    		$ e^{i \theta _1 } = \cos \theta _1 + i \sin \theta _1 $ \\
+    		\vspace{0.5 cm}
+    		$u\cos(\pi u^{3}) + v +1 = x $ \\
+    		\vspace{0.5 cm}
+    		$u + v^{2} \cos(\pi v) + 1 = y $ \\
+    		\vspace{0.5 cm}
+    
+\end{center}
+\begin{equation*}
+    		a_1^3+2b_1^2=0
+\end{equation*}
+\section{\textbf{Algorithm}}
+\begin{minted}[bgcolor=arsenic, fontsize=\footnotesize]{python}
+    		names = ['Kelly','Jessa','Emma']
+    		#outer loop
+    		for name in names:
+       		 #inner while loop
+        		count = 0
+        		while count < 5:
+            		print( name, end=' ')
+            		#increment counter
+            		count = count + 1
+    		print( )
+\end{minted}
+
+\end{document}
