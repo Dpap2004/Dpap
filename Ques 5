@@ -1,0 +1,142 @@
+documentclass[12pt]{article}
+\usepackage{graphicx}
+\usepackage{graphicx}
+\usepackage{subcaption}
+\usepackage[utf8]{inputenc}
+\usepackage{amsmath}
+\usepackage{amsfonts}
+\usepackage{amssymb}
+
+\title{\textbf{CS Department}}
+\date{}
+\begin{document}
+
+	\maketitle
+
+	\section*{}
+	
+		Do Paris authorities do plain-clothes ID checks on the subways?
+		How is this solidity function calling another solidity function without referencing it?
+		Working on Shabbat. Easy Answer... Not so, Hazan on Shabbat
+		Is compounding a universal word-formation strategy?
+		Bash script hangs on gotify push command in specific while/if loop
+		Use of in these Bashō/Sora haiku
+	
+		Are there any certifications required when selling a home-made microphone in the EU?
+		
+		\begin{tabular}{|c|c|c|c|}
+			\hline
+			Student &Section &Roll No. &Grade\\
+			\hline\hline
+			Rakesh &A &16123 &C\\
+			\hline
+			Ratnam &A &16127 &D\\
+			\hline
+			Pradeep &B &13452 &B\\
+			\hline
+			Praroop &B &13245 &A\\
+			\hline
+			Ashutosh &C &24365 &B\\
+			\hline
+			Avibhyakti &C &24378 &A\\
+			\hline
+			
+		\end{tabular}
+
+		\begin{figure}[h]
+	        		\centering
+	        		\includegraphics[width=5cm,height=5cm,angle=25]{pic5.jpg}
+	        		\caption{World Through A Different Perspective}
+	        		\label{fig:my_label}
+		\end{figure}
+		
+		Today I am learning \LaTeX{} . \LaTeX{} is a great program for writing math. I can write in 			line math such as $a^2+b^2=c^2$. I can also give equations their own space.\\
+		\textit{\textbf{Core Subjects for 1st years:}}
+		\begin{enumerate}
+			\item Discrete Marhematical Structures 
+			\item Programming with Python
+			\item Computer System Architecture
+			\item Object Oriented Programming with C++ 
+			\item Mathematics for Computing
+			\item Probability for Computing
+		\end{enumerate}		 
+		 
+		Example of itemize and enumerate:
+
+		\begin{enumerate}
+		    \item Two Equations:
+		
+		        \begin{itemize}
+		        	\item \begin{equation}
+							x_1 + y_2 = 1
+							\end{equation}
+		            \item \begin{equation*}
+		                \int_c  \overrightarrow F \overrightarrow{dr} = \int\int_s(\nabla X \overrightarrow F ) \overrightarrow{dr}
+		            	\end{equation*}
+
+		            \item \begin{equation*}
+		                \int\int_s  \overrightarrow A \overrightarrow{ds} = \int\int\int_v(\nabla . \overrightarrow A ) \overrightarrow{dv}
+		            	\end{equation*}
+		        \end{itemize}
+		    \item Above statement is an example of itemize
+		    
+		\end{enumerate}
+
+		\LaTeX{} document depicting varios arrangements of figures :
+
+
+		\begin{figure}[h!]
+			  \centering
+			  \begin{subfigure}[b]{0.4\linewidth}
+			   	\includegraphics[width=\linewidth]{pic3.jpg}
+			    	\caption{Picture 1}
+			  \end{subfigure}
+			  \begin{subfigure}[b]{0.4\linewidth}
+			    	\includegraphics[width=\linewidth]{pic2.jpg}
+			    	\caption{Picture 2}
+			  \end{subfigure}
+			  \begin{subfigure}[b]{0.4\linewidth}
+			    	\includegraphics[width=\linewidth]{pic2.jpg}
+			    	\caption{Picture 3}
+			  \end{subfigure}
+			  \begin{subfigure}[b]{0.4\linewidth}
+			    	\includegraphics[width=\linewidth]{pic3.jpg}
+			    	\caption{Picture 4}
+			  \end{subfigure}
+		      	\caption{Four figures in two rows}
+		      	\label{Point1}
+		\end{figure}
+		
+		\begin{figure}[h!]
+			  \centering
+			  \begin{subfigure}[b]{0.3\linewidth}
+			    	\includegraphics[width=\linewidth]{pic3.jpg}
+			    	\caption{Picture 1}
+			  \end{subfigure}
+			  \begin{subfigure}[b]{0.3\linewidth}
+			    	\includegraphics[width=\linewidth]{pic2.jpg}
+			    	\caption{Picture 2}
+			  \end{subfigure}
+			  \begin{subfigure}[b]{0.3\linewidth}
+			    	\includegraphics[width=\linewidth]{pic2.jpg}
+			    	\caption{Picture 3}
+			  \end{subfigure}
+		  	  \caption{Three figures in a row}
+		  	  \label{Point2}
+		\end{figure}
+		
+		\begin{figure}[h!]
+			  \centering
+			  \begin{subfigure}[b]{0.4\linewidth}
+			    	\includegraphics[width=\linewidth]{pic3.jpg}
+			    	\caption{Picture 1}
+			  \end{subfigure}
+			  \begin{subfigure}[b]{0.4\linewidth}
+			    	\includegraphics[width=\linewidth]{pic2.jpg}
+			    	\caption{Picture 2}
+			  \end{subfigure}
+			  \caption{Two figures in a row}
+			  \label{Point3}
+		\end{figure}
+	
+\end{document}
