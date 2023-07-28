@@ -1,0 +1,55 @@
+documentclass[10pt,a4paper]{article}
+\usepackage{array}
+\usepackage{multirow}
+
+\begin{document}
+
+Table 1\\
+
+\begin{tabular}{|c|c|c|c|}
+\hline
+cell1&cell2&cell3&cell4\\ [0.5ex]
+\hline\hline
+1&2&3&4\\
+\hline
+5&6&7&8\\ [1ex]
+\hline
+\end{tabular}\\
+
+
+Table 2\\
+
+\begin{tabular}{||m{3cm}|m{1cm}m{1cm}m{1cm}|m{3cm}||}
+\hline
+Cell1&Cell2&Cell3&Cell4&Cell5\\
+\hline
+1&1&2&3&4\\
+5&6&7&8&9\\
+\hline
+
+\end{tabular}\\
+
+Table 3 \\
+
+\begin{tabular}{|c|c|c|c|}
+\hline
+\multicolumn{4}{|c|}{Marks}\\ 
+\hline\hline
+English&Maths&Hindi&Science\\
+\hline\hline
+23&24&18&21\\
+\hline
+\end{tabular}\\
+
+Table 4\\
+
+\begin{tabular}{|c|c|c|c|}
+\hline
+\multicolumn{2}{|c|}{}&Student 1&Student 2\\
+\hline
+\multirow{2}{*}{Marks}&English&23&27\\
+&Maths&24&18\\
+\hline
+\end{tabular}
+
+\end{document}
